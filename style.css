@@ -239,6 +239,11 @@ header {
 }
 .trending_collection__img {
   max-width: 315px;
+  position: relative;
+  transition: width 0.3s ease;
+}
+.trending_collection__img:hover {
+  max-width: 310px;
 }
 .trending_collection_text {
   font-weight: 600;
@@ -248,11 +253,97 @@ header {
 }
 .collection_img {
   width: 85px;
+  position: relative;
+  transition: width 0.3s ease;
+}
+.collection_img:hover {
+  max-width: 80px;
 }
 .collection_avatar_text {
   margin-left: 5px;
 }
+
 /* trending collection styles end */
+
+/* top rated artists styles start */
+.top_rated_artists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.top_rated_artists_title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+}
+.top_rated_artists_text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.top_rated_artists_btn {
+  width: 247px;
+  height: 60px;
+  padding: 0px 50px;
+  gap: 12px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.top_rated_artists_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.top_rated_artists_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 240px;
+  height: 238px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  margin-top: 30px;
+}
+.ranking_number {
+  display: flex;
+  position: absolute;
+  background-color: #2b2b2b;
+  padding: 2px 11px;
+  border-radius: 20px;
+  margin-right: 10%;
+  font-family: "Space Mono";
+  font-weight: 400;
+  color: #858584;
+}
+.artists_text {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.total_sales {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #858584;
+}
+.additional_info {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-left: 5px;
+}
+
+/* top rated artists styles end */
 
 @media all and (max-width: 1463px) {
   .all_content {
