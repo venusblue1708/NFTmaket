@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -49,7 +49,9 @@
           style="display: flex; justify-content: space-between"
         >
           <img src="./images/logo.svg" alt="navbar-logo" class="navbar__logo" />
-          <h6 class="navbar__title">NFT Marketplace</h6>
+          <h6 class="navbar__title">
+            <a href="index.html">NFT Marketplace</a>
+          </h6>
         </div>
         <div
           class="navbar__left"
@@ -73,6 +75,181 @@
         </div>
       </div>
       <!-- navbar end -->
+      <div class="all_content">
+        <!-- hero section start -->
+        <header>
+          <div class="header__block_left">
+            <h2 class="header__title_left">
+              Discover digital art & Collect NFTs
+            </h2>
+            <p class="header__desc_left">
+              NFT marketplace UI created with Anima for Figma. Collect, buy and
+              sell art from more than 20k NFT artists.
+            </p>
+
+            <button class="header__btn">
+              <img
+                class="btn__icon"
+                src="./images/RocketLaunch.svg"
+                alt="arrow"
+              />
+              Get Started
+            </button>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+              "
+            >
+              <div style="display: flex; flex-direction: column">
+                <h4 class="header__item">240k+</h4>
+                <p class="header__parag">Total Sale</p>
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <h4 class="header__item">100k+</h4>
+                <p class="header__parag">Auctions</p>
+              </div>
+              <div style="display: flex; flex-direction: column">
+                <h4 class="header__item">240k+</h4>
+                <p class="header__parag">Artists</p>
+              </div>
+            </div>
+          </div>
+          <div class="header__block_right">
+            <img
+              src="./images/header_img.png"
+              alt="header image"
+              class="header__img"
+            />
+            <div class="header__img_bottom">
+              <h5 class="header__img_item">Space Walking</h5>
+              <div style="display: flex; flex-direction: row">
+                <img
+                  class="header_avatar"
+                  src="./images/header_avatar.png"
+                  alt=""
+                />
+                <p class="header__avatar_text">Animakid</p>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- hero section end -->
+        <!-- trending collection stat -->
+        <div class="trending_collection">
+          <h2 class="trending_collection__title">Trending Collection</h2>
+          <p class="trending_collection__desc">
+            Checkout our weekly updated trending collection.
+          </p>
+          <div class="trending_collection__content">
+            <div>
+              <img
+                class="trending_collection__img"
+                src="./images/trending_collection_img1.png"
+                alt=""
+              />
+              <div style="margin-top: 20px">
+                <img
+                  class="collection_img"
+                  src="./images/collection_img1.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img2.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img.svg"
+                  alt=""
+                />
+              </div>
+              <h5 class="trending_collection_text">DSGN Animals</h5>
+              <div style="display: flex; flex-direction: row; margin-top: 20px">
+                <img
+                  width="20"
+                  height="20"
+                  src="./images/collection_avatar.png"
+                  alt=""
+                />
+                <p class="collection_avatar_text">MrFox</p>
+              </div>
+            </div>
+            <div>
+              <img
+                class="trending_collection__img"
+                src="./images/trending_collection_img2.png"
+                alt=""
+              />
+              <div style="margin-top: 20px">
+                <img
+                  class="collection_img"
+                  src="./images/collection_img3.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img4.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img.svg"
+                  alt=""
+                />
+              </div>
+              <h5 class="trending_collection_text">Magic Mushrooms</h5>
+              <div style="display: flex; flex-direction: row; margin-top: 20px">
+                <img
+                  width="20"
+                  height="20"
+                  src="./images/collection_avatar2.png"
+                  alt=""
+                />
+                <p class="collection_avatar_text">Shroomie</p>
+              </div>
+            </div>
+            <div>
+              <img
+                class="trending_collection__img"
+                src="./images/trending_collection_img3.png"
+                alt=""
+              />
+
+              <div style="margin-top: 20px">
+                <img
+                  class="collection_img"
+                  src="./images/collection_img5.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img6.png"
+                  alt=""
+                />
+                <img
+                  class="collection_img"
+                  src="./images/collection_img.svg"
+                  alt=""
+                />
+              </div>
+              <h5 class="trending_collection_text">Shroomie</h5>
+              <div style="display: flex; flex-direction: row; margin-top: 20px">
+                <img
+                  width="20"
+                  height="20"
+                  src="./images/collection_avatar3.png"
+                  alt=""
+                />
+                <p class="collection_avatar_text">BeKind2Robots</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- trending collection end -->
+      </div>
     </div>
     <script>
       let openBtn = document.querySelector(".navbar__btn_burger");
