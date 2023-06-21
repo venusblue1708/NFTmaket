@@ -23,7 +23,6 @@ body {
 
 .navbar__logo {
   width: 15%;
-  background-color: #a259ff;
 }
 .navbar__title > a {
   font-weight: 600;
@@ -240,7 +239,7 @@ header {
 .trending_collection__img {
   max-width: 315px;
   position: relative;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 .trending_collection__img:hover {
   max-width: 310px;
@@ -254,7 +253,7 @@ header {
 .collection_img {
   width: 85px;
   position: relative;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 .collection_img:hover {
   max-width: 80px;
@@ -262,7 +261,9 @@ header {
 .collection_avatar_text {
   margin-left: 5px;
 }
-
+.trending_collection_none {
+  display: none;
+}
 /* trending collection styles end */
 
 /* top rated artists styles start */
@@ -346,7 +347,35 @@ header {
   line-height: 140%;
   margin-left: 5px;
 }
-
+/* ? adaptive styles */
+.top_rated_artists_none {
+  display: none;
+}
+.top_rated_card {
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  height: 100px;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.ranking {
+  display: flex;
+  position: absolute;
+  background-color: #2b2b2b;
+  padding: 2px 11px;
+  border-radius: 20px;
+  left: 7px;
+  top: 15px;
+  font-family: "Space Mono";
+  font-weight: 400;
+  color: #858584;
+}
 /* top rated artists styles end */
 
 /* browse categories styles start */
@@ -471,6 +500,9 @@ header {
   font-size: 16px;
   line-height: 140%;
 }
+.discover_more__none {
+  display: none;
+}
 /* discover more NFTs styles end */
 
 /* ? NFT Highlight styles start */
@@ -590,6 +622,93 @@ header {
   font-weight: 600;
   color: #ffffff;
 }
+/*? footer styles start */
+.content {
+  background: #3b3b3b;
+  padding: 40px 195px;
+  width: 100%;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #858584;
+  padding-bottom: 27px;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+}
+.footer__center {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+}
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  padding-right: 70px;
+}
+.footer__title {
+  font-family: "Space Mono";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 160%;
+}
+.footer__text {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #cccccc;
+  margin: 7px 0px;
+}
+.footer__icons {
+  width: 158px;
+  height: 32px;
+}
+.footer__btn_control {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.footer__btn_first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 0px 16px 20px;
+  gap: 12px;
+  width: 250px;
+  height: 60px;
+  background: #ffffff;
+  border-radius: 20px;
+  border: none;
+}
+.footer__btn_second {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 50px;
+  gap: 12px;
+  width: 170px;
+  height: 60px;
+  background: #a259ff;
+  border-radius: 20px;
+  border: none;
+  margin-left: -50px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.footer__end {
+  color: #cccccc;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 20px;
+}
+/*? footer styles end */
 
 @media all and (max-width: 1463px) {
   .all_content {
@@ -611,16 +730,112 @@ header {
     font-size: 58px;
   }
 }
-@media all and (max-width: 1222px) {
+@media all and (max-width: 1317px) {
+  .content {
+    padding: 40px 150px;
+  }
+}
+@media all and (max-width: 1287px) {
+  .all_content {
+    width: 1000px;
+  }
 }
 @media all and (max-width: 1237px) {
   .navbar__left {
     width: 60% !important;
   }
+  .header__title_left {
+    font-size: 54px;
+    line-height: 70px;
+  }
+  .content {
+    padding: 40px 130px;
+  }
+}
+@media all and (max-width: 1201px) {
+  .header__title_left {
+    font-size: 50px;
+    line-height: 65px;
+  }
+  .header__img {
+    width: 450px;
+    height: 340px;
+  }
+  .header__img_bottom {
+    width: 450px;
+  }
+  .trending_collection__img {
+    margin-left: 10px;
+  }
+  .discover_more__card {
+    margin-left: 10px;
+  }
+  .subscribe_widget_blog {
+    width: 1000px;
+  }
+}
+@media all and (max-width: 1172px) {
+  .content {
+    padding: 40px 90px;
+  }
+}
+@media all and (max-width: 1097px) {
+  .content {
+    padding: 40px 70px;
+  }
 }
 @media all and (max-width: 1079px) {
   .navbar__left {
     width: 70% !important;
+  }
+  .all_content {
+    width: 900px;
+  }
+  .subscribe_widget_blog {
+    width: 900px;
+  }
+  .subscribe_widget_btn_second {
+    width: 180px;
+  }
+}
+@media all and (max-width: 1055px) {
+  .content {
+    padding: 40px 40px;
+  }
+}
+@media all and (max-width: 1029px) {
+  .header__title_left {
+    font-size: 45px;
+    line-height: 60px;
+  }
+  .header__desc_left {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .header__img {
+    width: 400px;
+    height: 330px;
+  }
+  .header__img_bottom {
+    width: 400px;
+  }
+  .trending_collection__content {
+    display: none;
+  }
+  .trending_collection_none {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .top_rated_artists_cards {
+    display: none;
+  }
+  .top_rated_artists_none {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
   }
 }
 @media all and (max-width: 1003px) {
@@ -643,6 +858,201 @@ header {
   }
   .navbar__button > img {
     width: 25%;
+  }
+  .all_content {
+    width: 800px;
+  }
+  .discover_more__cards {
+    display: none;
+  }
+  .discover_more__none {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+}
+@media all and (max-width: 994px) {
+  .how_it_works__card {
+    width: 270px;
+  }
+  .how_it_works__img {
+    width: 220px;
+  }
+  .subscribe_widget_blog {
+    width: 830px;
+  }
+  .subscribe_widget_img {
+    width: 350px;
+    height: 250px;
+  }
+  .subscribe_widget_title {
+    font-size: 30px;
+  }
+  .subscribe_widget_text {
+    font-size: 20px;
+  }
+  .subscribe_widget_btn_first {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .container {
+    margin: 0px 50px;
+  }
+  .content {
+    padding: 40px 100px;
+  }
+  footer {
+    flex-direction: column;
+  }
+  .header__title_left {
+    font-size: 43px;
+    line-height: 55px;
+  }
+  .header__desc_left {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header__img {
+    width: 380px;
+    height: 300px;
+  }
+  .header__img_bottom {
+    width: 380px;
+  }
+}
+@media all and (max-width: 905px) {
+  .all_content {
+    width: 790px;
+  }
+  .how_it_works__card {
+    width: 240px;
+  }
+  .how_it_works__img {
+    width: 190px;
+  }
+  .how_it_works__card_item {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 889px) {
+  .header__item {
+    font-size: 24px;
+  }
+  .header__parag {
+    font-size: 20px;
+  }
+  .subscribe_widget_blog {
+    width: 760px;
+    height: 370px;
+  }
+  .subscribe_widget_img {
+    width: 330px;
+    height: 230px;
+  }
+  .subscribe_widget_title {
+    font-size: 27px;
+  }
+  .subscribe_widget_text {
+    font-size: 18px;
+  }
+  .subscribe_widget_btn_second {
+    width: 150px;
+    padding: 30px;
+  }
+  .subscribe_widget_btn_second > img {
+    display: none;
+  }
+}
+@media all and (max-width: 868px) {
+  .all_content {
+    width: 730px;
+  }
+}
+@media all and (max-width: 837px) {
+  .subscribe_widget_blog {
+    width: 720px;
+    height: 330px;
+    padding: 30px;
+  }
+  .subscribe_widget_img {
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  .subscribe_widget_title {
+    font-size: 24px;
+  }
+}
+@media all and (max-width: 812px) {
+  .all_content {
+    width: 690px;
+  }
+  .browse_categories_card {
+    width: 150px;
+  }
+  .browse_categories_img_second {
+    top: 52px;
+    left: 38px;
+    width: 70px;
+  }
+  .browse_categories_text {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 17px 12px 19px;
+  }
+  .header__title_left {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .header__desc_left {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .header__img {
+    width: 340px;
+    height: 260px;
+  }
+  .header__img_bottom {
+    width: 340px;
+  }
+}
+@media all and (max-width: 795px) {
+  .how_it_works__card {
+    width: 200px;
+    height: 350px;
+  }
+  .how_it_works__img {
+    width: 150px;
+  }
+  .how_it_works__card_item {
+    font-size: 16px;
+  }
+  .how_it_works__card_text {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 775px) {
+  .subscribe_widget_blog {
+    width: 680px;
+    height: 290px;
+    padding: 20px;
+  }
+  .all_content {
+    width: 650px;
+  }
+  .header__img {
+    width: 320px;
+    height: 240px;
+  }
+  .header__img_bottom {
+    width: 320px;
+  }
+  .top_rated_artists_btn {
+    width: 200px;
+  }
+  .content {
+    padding: 40px 50px;
   }
 }
 @media all and (max-width: 579px) {
