@@ -312,7 +312,7 @@ header {
   border-radius: 20px;
   background-color: #3b3b3b;
   margin-top: 30px;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 .top_rated_artists_card:hover {
   width: 230px;
@@ -374,7 +374,7 @@ header {
   background: #3b3b3b;
   position: relative;
   margin-top: 30px;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 .browse_categories_card:hover {
   max-width: 220px;
@@ -395,6 +395,83 @@ header {
   gap: 25px;
 }
 /* browse categories styles end */
+/* discover more NFTs styles start */
+.discover_more__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 130px;
+}
+.discover_more__title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 45.6px;
+}
+.discover_more__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35.2px;
+}
+.discover_more__btn {
+  width: 187px;
+  height: 60px;
+  padding: 0px 50px;
+  gap: 12px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  margin-top: 31px;
+}
+.discover_more__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.discover_more__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 310px;
+  max-height: 469px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.discover_more__card:hover {
+  max-width: 300px;
+}
+.discover_more__card_content {
+  padding: 20px 30px 25px;
+}
+.discover_more__card_title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.discover_more__avatar_name {
+  font-family: "Space Mono";
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.discover_more__card_text {
+  margin-top: 20px;
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.discover_more__card_text_item {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+/* discover more NFTs styles end */
 
 @media all and (max-width: 1463px) {
   .all_content {
