@@ -473,6 +473,60 @@ header {
 }
 /* discover more NFTs styles end */
 
+/* ? NFT Highlight styles start */
+.nft_highlight {
+  display: flex;
+  width: 100%;
+  /* max-width: 100vw; */
+}
+/* ? NFT Highlight styles end */
+
+/* How it works blog styles start */
+.how_it_works__blog {
+  display: flex;
+  flex-direction: column;
+}
+.how_it_works__title {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 120%;
+}
+.how_it_works__desc {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+}
+.how_it_works__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.how_it_works__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 30px;
+  width: 310px;
+  height: 410px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.how_it_works__card_item {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.how_it_works__card_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+/* How it works blog styles end */
+
 @media all and (max-width: 1463px) {
   .all_content {
     padding: 60px 100px;
