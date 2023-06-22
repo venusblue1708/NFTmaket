@@ -44,12 +44,11 @@ body {
   text-decoration: none;
   color: white;
 }
-
-/* .list__item > a:hover {
-  color: #5454d4;
-  font-weight: 500;
+.list__item > a:hover {
+  color: #a259ff;
+  font-weight: 400;
   transition: 0.8s;
-} */
+}
 
 .navbar__button {
   display: flex;
@@ -428,6 +427,7 @@ header {
   gap: 25px;
 }
 /* browse categories styles end */
+
 /* discover more NFTs styles start */
 .discover_more__content {
   display: flex;
@@ -713,6 +713,8 @@ footer {
   margin-top: 20px;
 }
 /*? footer styles end */
+
+/* !Adaptive */
 
 @media all and (max-width: 1463px) {
   .all_content {
