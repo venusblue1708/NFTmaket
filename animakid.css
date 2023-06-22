@@ -129,9 +129,244 @@ body {
 /*  burger-menu styles end */
 
 .all_content {
-  width: 100%;
-  padding: 80px 160px;
+  padding: 0px 160px;
 }
+
+/* animakid styles start */
+.animakid_img {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.animakid_avatar {
+  border: 1px solid #2b2b2b;
+  position: absolute;
+  bottom: -100px;
+}
+.animakid_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.animakid_info > h2 {
+  font-size: 51px;
+  font-weight: 600;
+}
+.animakid_btn_control {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.animakid_btn_first {
+  width: 186px;
+  height: 60px;
+  text-align: center;
+  padding: 0px 20px;
+  border-radius: 20px;
+  background: #a259ff;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.animakid_btn_second {
+  margin-left: 15px;
+  width: 150px;
+  height: 60px;
+  padding: 0px 30px;
+  border-radius: 20px;
+  border: 2px solid #a259ff;
+  color: #ffffff;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+}
+.animakid__blog_center {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.animakid__item {
+  font-size: 28px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  margin: 0px;
+}
+.animakid__parag {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0px;
+}
+.animakid_bio {
+  display: flex;
+  flex-direction: column;
+}
+.animakid_bio > h5 {
+  color: #858584;
+  font-size: 22px;
+  font-family: Space Mono;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.animakid_bio > p {
+  font-size: 22px;
+  font-family: Work Sans;
+  margin-bottom: 0px;
+}
+.animakid_links {
+  display: flex;
+  flex-direction: column;
+}
+.animakid_links > h5 {
+  color: #858584;
+  font-size: 22px;
+  font-family: Space Mono;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/* ? content */
+.animakid_content {
+  display: flex;
+  flex-direction: column;
+}
+.animakid__filter_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  padding: 0px 30px;
+  border-bottom: 2px solid #858584;
+}
+.animakid__filter_left > button {
+  border-radius: 20px;
+  background: #858584;
+  padding: 3px 6px;
+  width: 45px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Space Mono;
+  border: none;
+  margin-top: 14px;
+  margin-left: 8px;
+}
+.animakid__filter_left > h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.animakid__filter_center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  padding: 0px 30px;
+}
+.animakid__filter_center > button {
+  border-radius: 20px;
+  background: #3b3b3b;
+  padding: 3px 6px;
+  width: 45px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Space Mono;
+  border: none;
+  margin-top: 14px;
+  margin-left: 8px;
+}
+.animakid__filter_center > h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #858584;
+}
+.animakid__filter_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  padding: 0px 30px;
+}
+.animakid__filter_right > button {
+  border-radius: 20px;
+  background: #3b3b3b;
+  padding: 3px 6px;
+  width: 45px;
+  height: 37px;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Space Mono;
+  border: none;
+  margin-top: 14px;
+  margin-left: 8px;
+}
+.animakid__filter_right > h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #858584;
+}
+.animakid__cards_blog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #3b3b3b;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #2b2b2b;
+}
+.animakid__cards {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.animakid__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  max-height: 469px;
+  border-radius: 20px;
+  background: #2b2b2b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.animakid__card:hover {
+  max-width: 310px;
+}
+.animakid__card_content {
+  padding: 20px 30px 25px;
+}
+.animakid__card_title {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.animakid__avatar_name {
+  font-family: "Space Mono";
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.animakid__card_text {
+  margin-top: 20px;
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.animakid__card_text_item {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0px;
+}
+/* animakid styles end */
 
 /*? footer styles start */
 .content {

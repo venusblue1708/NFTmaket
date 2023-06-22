@@ -305,6 +305,10 @@ header {
   flex-wrap: wrap;
   margin-top: 10px;
 }
+.top_rated_artists_cards > a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .top_rated_artists_card {
   display: flex;
   flex-direction: column;
