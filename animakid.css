@@ -141,7 +141,7 @@ body {
 .animakid_avatar {
   border: 1px solid #2b2b2b;
   position: absolute;
-  bottom: -100px;
+  bottom: 180px;
 }
 .animakid_info {
   display: flex;
@@ -506,9 +506,7 @@ footer {
   .content {
     padding: 40px 90px;
   }
-  .animakid_avatar {
-    bottom: -50px;
-  }
+
   .animakid_info > h2 {
     font-size: 45px;
   }
@@ -555,10 +553,6 @@ footer {
   }
 }
 @media all and (max-width: 979px) {
-  .animakid_avatar {
-    bottom: -15px;
-  }
-
   .all_content {
     padding: 0px 100px;
   }
@@ -575,9 +569,6 @@ footer {
   }
 }
 @media all and (max-width: 878px) {
-  .animakid_avatar {
-    bottom: 10px;
-  }
   .all_content {
     padding: 0px 80px;
   }
@@ -623,7 +614,6 @@ footer {
 }
 @media all and (max-width: 717px) {
   .animakid_avatar {
-    bottom: 55px;
     width: 100px;
   }
   .animakid_info > h2 {
@@ -668,9 +658,6 @@ footer {
   }
 }
 @media all and (max-width: 597px) {
-  .animakid_avatar {
-    bottom: 98px;
-  }
   .animakid_info > h2 {
     font-size: 38px;
   }
@@ -743,9 +730,6 @@ footer {
   }
 }
 @media all and (max-width: 480px) {
-  .animakid_avatar {
-    bottom: 129px;
-  }
   .animakid__item {
     font-size: 20px;
   }

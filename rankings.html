@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rankings</title>
+    <link rel="stylesheet" href="./rankings.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ! burger menu start -->
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <img
+            src="./images/cancel_btn.png"
+            alt="error"
+            class="burger-menu__btn_close"
+          />
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+              <a href="marketplace.html">Marketplace</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="rankings.html">Rankings</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#">Connect a wallet</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ! burger menu end -->
+      <!-- navbar start -->
+      <div class="navbar">
+        <div
+          class="navbar__right"
+          style="display: flex; justify-content: space-between"
+        >
+          <img src="./images/logo.svg" alt="navbar-logo" class="navbar__logo" />
+          <h6 class="navbar__title">
+            <a href="index.html">NFT Marketplace</a>
+          </h6>
+        </div>
+        <div
+          class="navbar__left"
+          style="width: 50%; display: flex; justify-content: space-between"
+        >
+          <ul class="navbar__list">
+            <li class="list__item">
+              <a href="marketplace.html">Marketplace</a>
+            </li>
+            <li class="list__item"><a href="rankings.html">Rankings</a></li>
+            <li class="list__item"><a href="#">Connect a wallet</a></li>
+          </ul>
+          <button class="navbar__button">
+            <img src="./images/User.svg" alt="" />
+            Sign up
+          </button>
+          <!-- ! кнопка бургер меню -->
+          <img
+            src="./images/burger__menu_icon.png"
+            alt="burger_menu"
+            class="navbar__btn_burger"
+          />
+        </div>
+      </div>
+      <!-- navbar end -->
+
+      <div class="all_content">
+        <div class="rankings_blog">
+          <h2 class="rankings_title">Top Creators</h2>
+          <p class="rankings_desc">
+            Check out top ranking NFT artists on the NFT Marketplace.
+          </p>
+          <div class="rankings_filter">
+            <h3 class="rankings_filter_active">Today</h3>
+            <h3 class="rankings_filter_item">This Week</h3>
+            <h3 class="rankings_filter_item">This Month</h3>
+
+            <h3 class="rankings_filter_item">All Time</h3>
+          </div>
+          <div class="rankings_filter_none">
+            <h3 class="rankings_filter_active">1d</h3>
+            <h3 class="rankings_filter_item">7d</h3>
+            <h3 class="rankings_filter_item">30d</h3>
+
+            <h3 class="rankings_filter_item">All Time</h3>
+          </div>
+          <div class="rankings_cards">
+            <div class="rankings_card_info">
+              <div style="display: flex; flex-direction: row">
+                <p class="rankings_card_artist_number">#</p>
+                <h5 class="rankings_card_artist">Artist</h5>
+              </div>
+              <div
+                class="control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_desc">Change</h5>
+                <h5 class="rankings_card_desc_center">NFTs Sold</h5>
+                <h5 class="rankings_card_desc_end">Volume</h5>
+              </div>
+            </div>
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">1</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar1.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Jaydon Ekstrom Bothman</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">2</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar2.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Alfonso Bator</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">3</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar3.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Nolan Mango</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">4</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar4.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Nolan Mango</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">5</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar5.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Miracle Gouse</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">6</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar6.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Alena Septimus</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">7</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar7.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Desirae Lipshutz</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">8</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar8.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Paityn Kenter</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">9</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar9.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Alena Vaccaro</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">10</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar10.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Randy Carder</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">11</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar11.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Hanna Culhane</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">12</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar12.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Jocelyn Workman</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">13</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar4.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Desirae Septimus</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">14</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar5.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Ahmad Franci</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">15</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar6.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Maria Bergson</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">16</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar7.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Ahmad Geidt</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">17</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar8.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Skylar Mango</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">18</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar9.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Rayna Geidt</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">19</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar10.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Marley Rosser</h5>
+              </div>
+              <div
+                class="card_control_text"
+                style="display: flex; flex-direction: row; width: 50%"
+              >
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+            <div class="rankings_card">
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  align-items: center;
+                  justify-content: space-between;
+                "
+              >
+                <p class="rankings_card_number">20</p>
+                <img
+                  width="50"
+                  height="48"
+                  src="./images/artists_avatar1.png"
+                  alt=""
+                />
+                <h5 class="rankings_card_name">Tatiana Philips</h5>
+              </div>
+              <div style="display: flex; flex-direction: row; width: 50%">
+                <h5 class="rankings_card_text_change">+1.41%</h5>
+                <h5 class="rankings_card_text_center">602</h5>
+                <h5 class="rankings_card_text_end">12.4 ETH</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ? Footer start -->
+    <div class="content">
+      <footer>
+        <div class="footer__left">
+          <div style="display: flex; flex-direction: row">
+            <img src="./images/logo.svg" alt="" />
+            <h3 class="footer__title">NFT Marketplace</h3>
+          </div>
+          <p class="footer__text">
+            NFT marketplace UI created with Anima for Figma.
+          </p>
+          <p class="footer__text">Join our community</p>
+          <img class="footer__icons" src="./images/footer_icons.svg" alt="" />
+        </div>
+        <div class="footer__center">
+          <h3 class="footer__title">Explore</h3>
+          <p class="footer__text">Marketplace</p>
+          <p class="footer__text">Rankings</p>
+          <p class="footer__text">Connect a wallet</p>
+        </div>
+        <div class="footer__right">
+          <h3 class="footer__title">Join our weekly digest</h3>
+          <p class="footer__text">
+            Get exclusive promotions & updates straight to your inbox.
+          </p>
+          <div class="footer__btn_control">
+            <button class="footer__btn_first">Enter your email here</button>
+            <button class="footer__btn_second">Subscribe</button>
+          </div>
+        </div>
+      </footer>
+      <p class="footer__end">Ⓒ NFT Market. Use this template freely.</p>
+    </div>
+    <!-- ? Footer end -->
+    <script>
+      let openBtn = document.querySelector(".navbar__btn_burger");
+      let closeBtn = document.querySelector(".burger-menu__btn_close");
+      let burgerMenu = document.querySelector(".burger-menu");
+
+      openBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "block";
+      });
+
+      closeBtn.addEventListener("click", () => {
+        burgerMenu.style.display = "none";
+      });
+    </script>
+  </body>
+</html>
