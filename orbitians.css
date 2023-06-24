@@ -131,9 +131,218 @@ body {
 /*  burger-menu styles end */
 
 .all_content {
-  width: 100%;
-  padding: 80px 160px;
+  padding: 40px 200px;
 }
+/* orbitians styles start */
+.orbitians_img {
+  display: flex;
+  width: 100%;
+  height: 580px;
+}
+.orbitians_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.orbitians_info {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+.orbitians_info > h2 {
+  font-size: 51px;
+  font-weight: 600;
+  margin: 0px;
+}
+.orbitians_info > h5 {
+  font-size: 22px;
+  line-height: 160%;
+  color: #858584;
+  margin-top: 15px;
+}
+.orbitians_info_start > h4 {
+  color: #858584;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Space Mono;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.orbitians_info_text {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.orbitians_info_desc > h4 {
+  color: #858584;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Space Mono;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.orbitians_desc_start {
+  font-size: 22px;
+  margin-top: 7px;
+}
+.orbitians_desc_center {
+  font-size: 22px;
+  margin-top: 25px;
+}
+.orbitians_desc_end {
+  font-size: 22px;
+  margin-top: 25px;
+}
+.orbitians_info_details > h4 {
+  color: #858584;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Space Mono;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.orbitians_info_href {
+  font-size: 22px;
+  margin: 10px;
+  margin-left: 10px;
+}
+.orbitians_info_tags > h4 {
+  color: #858584;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Space Mono;
+  margin: 10px 0px;
+}
+.orbitians_info_btn {
+  height: 46px;
+  padding: 0px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 140%;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+}
+.orbitians_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 265px;
+  padding: 30px;
+  background-color: #3b3b3b;
+  height: 190px;
+  border-radius: 20px;
+}
+.orbitians_right_btn {
+  height: 60px;
+  width: 235px;
+  border-radius: 20px;
+  background-color: #a259ff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.orbitians__cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.orbitians__content_name {
+  font-size: 38px;
+  font-weight: 600;
+}
+.orbitians__content_btn {
+  width: 268px;
+  height: 60px;
+  padding: 0px 50px;
+  border: 2px solid #a259ff;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.orbitians__card {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  max-height: 469px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.orbitians__card:hover {
+  max-width: 310px;
+}
+.orbitians__card2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  max-height: 469px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.orbitians__card2:hover {
+  max-width: 310px;
+}
+.orbitians__card3 {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  max-height: 469px;
+  border-radius: 20px;
+  background: #3b3b3b;
+  margin-top: 30px;
+  transition: all 0.3s ease;
+}
+.orbitians__card3:hover {
+  max-width: 310px;
+}
+.orbitians__card_content {
+  padding: 20px 30px 25px;
+}
+.orbitians__card_title {
+  margin: 0px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+.orbitians__avatar_name {
+  font-family: "Space Mono";
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.orbitians__card_text {
+  margin-top: 20px;
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+  color: #858584;
+}
+.orbitians__card_text_item {
+  font-family: "Space Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin: 0px;
+}
+/* orbitians styles end */
 
 /*? footer styles start */
 .content {
