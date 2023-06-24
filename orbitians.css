@@ -342,6 +342,9 @@ body {
   line-height: 140%;
   margin: 0px;
 }
+.orbitians_timer {
+  display: none;
+}
 /* orbitians styles end */
 
 /*? footer styles start */
@@ -449,6 +452,9 @@ footer {
   .content {
     padding: 40px 90px;
   }
+  .all_content {
+    padding: 40px 150px;
+  }
 }
 @media all and (max-width: 1097px) {
   .content {
@@ -486,6 +492,15 @@ footer {
   .navbar__button > img {
     width: 25%;
   }
+  .all_content {
+    padding: 40px 100px;
+  }
+  .orbitians_img {
+    height: 500px;
+  }
+  .orbitians_info > h2 {
+    font-size: 46px;
+  }
 }
 @media all and (max-width: 994px) {
   .container {
@@ -498,6 +513,52 @@ footer {
     flex-direction: column;
   }
 }
+@media all and (max-width: 889px) {
+  .orbitians__content_name {
+    font-size: 35px;
+  }
+  .orbitians__content_btn {
+    width: 200px;
+    font-size: 14px;
+    padding: 0px 20px;
+  }
+  .orbitians__content_btn > img {
+    display: none;
+  }
+  .all_content {
+    padding: 40px 80px;
+  }
+}
+@media all and (max-width: 827px) {
+  .orbitians_img {
+    height: 400px;
+  }
+  .orbitians_content {
+    flex-direction: column;
+  }
+  .orbitians_right {
+    display: none;
+  }
+  .orbitians_timer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 265px;
+    padding: 30px;
+    background-color: #3b3b3b;
+    height: 190px;
+    border-radius: 20px;
+  }
+  .orbitians_info {
+    width: 100%;
+  }
+  .all_content {
+    padding: 40px 60px;
+  }
+  .orbitians__card3 {
+    display: none;
+  }
+}
 @media all and (max-width: 775px) {
   .content {
     padding: 40px 50px;
@@ -506,6 +567,13 @@ footer {
 @media all and (max-width: 768px) {
   .container {
     margin: 0px 30px;
+  }
+  .orbitians__content_name {
+    font-size: 30px;
+  }
+  .orbitians__cards {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media all and (max-width: 579px) {
