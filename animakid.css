@@ -71,6 +71,9 @@ body {
 .navbar__btn_burger {
   display: none;
 }
+.navbar__left > a {
+  text-decoration: none;
+}
 
 /* navbar styles end */
 /*  burger-menu styles start */
