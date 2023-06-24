@@ -576,6 +576,14 @@ footer {
     align-items: center;
   }
 }
+@media all and (max-width: 651px) {
+  .orbitians__content_btn {
+    display: none;
+  }
+  .orbitians__content_name {
+    font-size: 35px;
+  }
+}
 @media all and (max-width: 579px) {
   .navbar__btn_burger {
     width: 30px;
@@ -600,6 +608,40 @@ footer {
     margin-top: 5px;
     padding: 0px 30px;
   }
+  .orbitians_img {
+    height: 330px;
+  }
+}
+@media all and (max-width: 555px) {
+  .orbitians_img {
+    height: 300px;
+  }
+  .orbitians_info > h2 {
+    font-size: 40px;
+  }
+  .orbitians_info_desc > p {
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 456px) {
+  .navbar__button {
+    width: 90px;
+    height: 30px;
+    padding: 0px 12px;
+    margin-top: 15px;
+  }
+  .orbitians_img {
+    height: 260px;
+  }
+  .all_content {
+    padding: 40px 40px;
+  }
+  .orbitians_info_desc > p {
+    font-size: 18px;
+  }
+  .orbitians__content_name {
+    font-size: 30px;
+  }
 }
 @media all and (max-width: 418px) {
   .content {
@@ -614,11 +656,6 @@ footer {
     width: 30px;
     height: 30px;
   }
-  .navbar__button {
-    width: 70px;
-    height: 30px;
-    padding: 0px 0px 0px 12px;
-  }
   .navbar__title > a {
     font-size: 13px;
   }
@@ -627,5 +664,37 @@ footer {
   }
   .footer__left {
     padding-right: 30px;
+  }
+  .all_content {
+    padding: 20px 20px;
+  }
+  .orbitians_info > h2 {
+    font-size: 35px;
+  }
+  .orbitians_timer {
+    padding: 20px;
+  }
+  .orbitians_info_desc > p {
+    font-size: 16px;
+  }
+  .orbitians__card {
+    max-width: 290px;
+  }
+  .orbitians_timer {
+    padding: 10px;
+  }
+}
+@media all and (max-width: 343px) {
+  .orbitians_info_href {
+    font-size: 18px;
+  }
+  .orbitians_img {
+    height: 220px;
+  }
+  .all_content {
+    padding: 20px 10px;
+  }
+  .orbitians__card {
+    width: 260px;
   }
 }
