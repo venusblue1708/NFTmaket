@@ -348,4 +348,7 @@ footer {
   .container {
     margin: 0px 20px;
   }
+  .footer__left {
+    padding-right: 30px;
+  }
 }

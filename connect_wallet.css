@@ -141,7 +141,7 @@ body {
 .connect_wallet_img {
   display: flex;
   width: 48%;
-  height: 691px;
+  height: 641px;
 }
 .connect_wallet_right {
   display: flex;
@@ -369,7 +369,7 @@ footer {
   }
   .connect_wallet_img {
     width: 100%;
-    height: 500px;
+    height: 550px;
   }
   .connect_wallet_right {
     align-items: center;
@@ -425,6 +425,12 @@ footer {
   .content {
     padding: 24px 20px;
   }
+  .connect_wallet_conrol {
+    width: 220px;
+  }
+  .connect_wallet_text {
+    font-size: 20px;
+  }
 }
 @media all and (max-width: 384px) {
   .navbar__button {
@@ -458,6 +464,9 @@ footer {
   .container {
     margin: 0px 20px;
   }
+  .footer__left {
+    padding-right: 30px;
+  }
 }
 @media all and (max-width: 336px) {
   .connect_wallet_title {
@@ -470,6 +479,6 @@ footer {
     padding: 20px;
   }
   .connect_wallet_conrol {
-    width: 230px;
+    width: 200px;
   }
 }
