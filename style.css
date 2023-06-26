@@ -361,6 +361,10 @@ header {
 .top_rated_artists_none {
   display: none;
 }
+.top_rated_artists_none > a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .top_rated_card {
   display: flex;
   flex-direction: row;
